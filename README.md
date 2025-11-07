@@ -1,16 +1,44 @@
-# React + Vite
+# 🧊 Community Fridge Locator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web app built to help communities **locate, monitor, and maintain public food-sharing fridges** — supporting the global goal of **Zero Hunger (SDG 2)**.  
+Built using **React**, **Vite**, **Supabase**, and **Tailwind CSS** 💚
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ **User Authentication (Supabase Auth)** — Login & Signup system  
+✅ **Add New Fridges** — Add location, contact, and fridge details  
+✅ **Status Management** — Set fridge as `Available`, `Low`, `Needs Cleaning`, or `Unavailable`  
+✅ **Search & Filter** — Quickly find fridges by name, address, or status  
+✅ **Real-time Updates** — Fridge list updates automatically when changes are made  
+✅ **Notes & Logs** — Add messages or updates to a fridge (visible to all users)  
+✅ **Responsive UI** — Works perfectly on mobile, tablet, and desktop  
+✅ **Role Ready** — Structure supports adding admin/beneficiary roles in the future  
+✅ **Deployed with Supabase (Database + Auth)** and Vercel/Netlify (Frontend Hosting)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧱 Tech Stack
+
+| Area | Technology | Description |
+|------|-------------|--------------|
+| 💻 Frontend | **React (Vite)** | Fast SPA framework |
+| 🎨 Styling | **Tailwind CSS** | Clean & responsive UI |
+| 🧠 State / Auth | **Supabase Auth & Context API** | Login, Signup, and User Sessions |
+| 🗄️ Database | **Supabase PostgreSQL** | Cloud-hosted DB with realtime |
+| 🔄 Backend Logic | **Supabase Policies & RLS** | Secure data control |
+| 🧩 Routing | **React Router DOM** | For multi-page navigation |
+| 🎯 Icons | **Lucide React + Emoji Icons** | Beautiful minimalist icons |
+| ☁️ Deployment | **Vercel / Netlify** | Fast CI/CD hosting |
+| ⚙️ Dev Tools | **Node.js + npm** | Dependency management & scripts |
+
+
+
+## 🚀 Live Demo
+🔗 **Live App:** _coming soon_ (after you deploy to [Vercel](https://vercel.com/))  
+🔗 **GitHub Repo:** [Community Fridge Locator](https://github.com/ykchoudhary110/Communtity-Fridge)
+
+
+
+## 🧭 Project Structure
+
